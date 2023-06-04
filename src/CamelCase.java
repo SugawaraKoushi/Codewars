@@ -3,7 +3,6 @@ import java.util.stream.Collectors;
 
 public class CamelCase {
     public static String camelCase(String str) {
-        StringBuilder result = new StringBuilder();
         String[] words = str.split(" ");
 
         for (int i = 0; i < words.length; i++) {
